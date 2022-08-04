@@ -1,0 +1,34 @@
+/*-Onceki  Dersten Aklimizda Kalanlar --------------------------------------------
+        1- Parametreli constructor'lar : Eger default constructor kullanirsak objemizi olusturabilir,ancak tum
+        ozellikleri defult olarak gelir.Bu sekilde olusturulan objelere istedigimiz degerleri atayabilmek icin
+        tek tek atama yapmamiz gerekir.
+        2- Parametresiz bir constructor ile obje olusturup, tum ozellikleri tek tek atamak yerine constructor'i
+        parametreli yapip, o constructor icinde atamalarimizi yapabiliriz. Bu atamalari yaparken instance variable'lara
+        parametre olarak gonderdigimiz degerleri atamaliyiz.
+        3- Scope konusundan hatirlayacagimiz gibi,bir scope'da marka yazarsak, java o scope'da marka variable'i
+        varsa onu kullanir. Instance variable'lari java'nin ayirt edebilmesi icin this. keyword'u kullanilir.
+        4- this. keyword'u constructor icin kullanilir ve this.variableIsmi seklinde yazildiginda, instance variable'a gider.
+        5- this() ise constructor icinden baska bir constructor cagirmak icin kullanilir.Uygulamada bu cok kullanilmaz,
+        ancak OOP'nin 4 temel ozelliginden biri olan Inheritance'i anlamamiz icin oncelikle this() kullanimini anlamamiz
+        gereklidir.
+        6- this contructor call icin 2 onemli kural vardir;
+           1. this() constructor call, bulundugu constructor'in ilk satirinda olmak ZORUNDADIR !
+           2. 1.kuraldan dolayi bir constructor icerisinde 2 tane constructor OLAMAZ !
+         */
+
+
+          /*//2.Obje
+                 C01 obj2 = new C01();
+                 System.out.println("obj2'in rakam degeri: "+ obj2.rakam);//5 --rakam instance idi yani static değil, instance demek obje variable ı demektir,
+                 //yani instance ise objeye bağlıdır.
+                     //soru su olacak obje olusturulduktan sonra rakama bir değer ataması yapılmıs mı? hayır,
+                 // obj2 burada olusturuldu o yüzden yukarıda yapılanlar bizi ilgilendirilmez, takibe buradan baslarız
+                 //yukarıda instance olarak rakama bir değer atanmıs mı evet o zaman 5 yazdırır
+                 System.out.println("obj2'in sayi degeri: "+ obj2.sayi);//11 --sayi static bir değerdir, yani class variable ıdır.
+                             // o yüzden objeden değil classtan alacağız, en bastan baslarız sayi var mi diye kontrol ederiz, sayiyi 11 yaptığımız icin burada 11 yazar.
+                 /*
+                 STATIC --CLASS--classın basından itibaren bak
+                 INSTANCE-- OBJECT --objeyi olusturduktan sonra bak
+                  */
+
+
