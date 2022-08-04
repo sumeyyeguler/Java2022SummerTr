@@ -3,6 +3,7 @@ package day37_overridding;
 public class GCokluClass {
 }
 
+//day 37 2 sa:15 dk itibaren
 class ikinciClass {
     /*
      IntelliJ'de actigimiz bir class icinde

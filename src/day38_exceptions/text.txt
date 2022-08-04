@@ -1,0 +1,23 @@
+
+***** TRY CATCH BLOĞU ****
+
+3 bölümden oluşur;
+
+1) try kısmı bizim çalıştırmaya uğraştığımız ama risk olduğunu düşündüğümüz kısmı yazar.
+
+2) catch(yakalanacak exception türünü yazdığımız parantezdir.)
+Bu kısımda karşılaşmayı umduğumuz exception türü ve o exception yakalanınca içine konacak obje yazılır.
+
+3) catch bloğu ise o problemi yakaladığımızda kullanıcıya ne demek istersek onu ekliyoruz.
+
+
+
+ try {
+            istenenSira = scan.nextInt();
+
+        } catch (exceptionTürü yakalananObje) {
+
+            System.out.println("Urun indexi icin bir tam sayi girmeniz gerekli");
+            System.out.println(deneme);//denemeyi direk yazdırırsak hangi hatayı alıyorsak onu yazar
+
+        }

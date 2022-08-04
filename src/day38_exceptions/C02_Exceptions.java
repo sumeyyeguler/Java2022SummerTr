@@ -13,6 +13,8 @@ public class C02_Exceptions {
                   turunu Javaya soylemek icin kullanilir
         catch blogu  : Java'ya soyledigimiz exception(isnisnai durum) gerceklesirse
                    Java'nin yapmasini istedigimiz islem
+
+                   kod üzerine gel konsoldan code>surround with>try catch
          */
             try {
                 System.out.println(a / b);

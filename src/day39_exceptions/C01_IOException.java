@@ -20,10 +20,12 @@ public class C01_IOException {
           Compile Time Exception'dir
           Ozellikle dosya okuma ve yazma ile ilgili exception'lar
           Compile Time Exception'dir
+
+
           Compile time Exception olustugunda Java cozum icin 2 ihtimal onerir
           1- try-catch ile cevrelemek
           2- method signature'ina throws keyword ile beklenen exception turunu yazmak
-          throws Exception , sadece olayin farkinda oldugumuzun deklarasyonudur
+          throws Exception , sadece olayin farkinda oldugumuzun deklarasyonudur!!
           exception'in handle edilmesinde hicbir rolu yoktur
           Yani try catch ile kontrol altina aldigimiz exception'lar da
           kod calismaya devam ediyordu
