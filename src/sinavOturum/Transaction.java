@@ -23,10 +23,10 @@ public class Transaction {
 
 
 
-
+        int count = 0;
         for (Map.Entry<String, String> each : VeriAktarma.derslerVeKodlari().entrySet()
         ) {
-            int count = 0;
+
 
             String dersKodu = each.getKey();
             for (Map.Entry<String, Ogrenci> each2 : VeriAktarma.ogrenciler().entrySet()) {
@@ -39,6 +39,7 @@ public class Transaction {
                 }
                 ogrenciler2.addAll(ogrenciler);
                 System.out.println("o2 "+ogrenciler2);
+                System.out.println(ogrenciler2.size());
                 derslereGoreOgrenciler.put(dersKodu, ogrenciler2);
 
                 ogrenciler2.removeAll(ogrenciler);
